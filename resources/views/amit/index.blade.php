@@ -22,8 +22,7 @@
        <div class="error" style="color:red">{{ $errors->first('name') }}</div>
       @endif
     </div>
-  <div class="form-group">
-      <label for="pwd">Image:</label>
+  <div class="form-group">\      <label for="pwd">Image:</label>
       @if($errors->has('image'))
        <div class="error" style="color:red">{{ $errors->first('image') }} </div>
       @endif
